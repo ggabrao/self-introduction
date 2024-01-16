@@ -6,10 +6,11 @@
   <h1 class="header" id="api-title">API</h1>
   <p class="prg">The following table emulates the main <strong>CRUD</strong> operations over a <strong>REST
       API</strong>, using an
-    <strong>In-Memory
+    <strong class="blue">In-Memory
       Web
-      Api for Angular</strong>. It allow us to simulate data persistence operations without a real backend server, using
-    <strong>Angular's HTTP Client</strong> to perform HTTP requests.
+      Api for Angular</strong>. It allow us to simulate data persistence operations by intercepting requests that
+    would otherwise go to a remote server. That way, <strong class="red">no backend is needed for testing HTTP
+      requests</strong>.
   </p>
   <p class="prg">
     You can add a new course, edit or delete, and then see the updated list.
@@ -32,7 +33,7 @@
     It's a better
     option than hard-coding the data.</p>
   <h3 class="subtitle">Component Communication</h3>
-  <p class="prg">Table, Dialog and Edit component are all integrated and communicating with each other, so the data can
+  <p class="prg">Table, Dialog and Update component are all integrated, so the data can
     flow among
     them with consistency, allowing any changes to be shared.
   </p>
