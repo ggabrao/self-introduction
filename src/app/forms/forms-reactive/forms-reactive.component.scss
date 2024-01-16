@@ -28,6 +28,10 @@
   margin-bottom: 1rem;
 }
 
+.remove-button {
+  display: inline;
+}
+
 // Below 816px
 @media (max-width: 51em) {
 
@@ -47,6 +51,12 @@
   .submit {
     margin-left: 9rem;
   }
+
+  .remove-button {
+    display: block;
+    margin-left: 11.5rem;
+    transform: translateY(-1rem);
+  }
 }
 
 // Below 408px
@@ -62,5 +72,10 @@
 
   .submit {
     margin-left: 0;
+  }
+
+  .remove-button {    
+    margin-left: 0;
+    
   }
 }
