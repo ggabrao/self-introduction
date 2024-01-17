@@ -7,7 +7,7 @@
     <mat-error *ngIf="userForm.get('name')?.errors?.['pattern']">Only letters. No spaces</mat-error>
   </mat-form-field>
   <button type="button" mat-icon-button aria-label="Displays a tooltip when focused or hovered over"
-    matTooltip="Username and Email fields use Angular's built-in validators and display different messages accordingly to the type of error"
+    matTooltip="Username and Email fields use Angular's built-in validators and display different messages according to the type of error"
     matTooltipPosition="after"><mat-icon class="material-symbols-outlined" color="accent">info</mat-icon></button>
 
   <mat-form-field color="accent" class="field"><mat-label>Email</mat-label>
@@ -23,7 +23,7 @@
     <mat-error *ngIf="userForm.get('phone')?.errors?.['required']">Phone is required</mat-error>
   </mat-form-field>
   <button type="button" mat-icon-button aria-label="Displays a tooltip when focused or hovered over"
-    matTooltip="Phone field has a validation rule adjusted at runtime: can be required based on the user's choice in the notifications select field"
+    matTooltip="Phone field has a validation rule adjusted at runtime; hence, it can be required based on the user's choice in the notifications select field"
     matTooltipPosition="after"><mat-icon class="material-symbols-outlined" color="accent">info</mat-icon></button>
 
   <div formArrayName="addresses">
@@ -52,7 +52,7 @@
         Password must have at least 4 characteres</mat-error>
     </mat-form-field>
     <button type="button" mat-icon-button aria-label="Displays a tooltip when focused or hovered over"
-      matTooltip="Password and Confirmation fields have a Cross-Field Validator to check if they match, also with a custom validation rule instead of an Angular's built-in"
+      matTooltip="Password and Confirmation fields have a Cross-Field Validator to check if they match. Also contain a custom validation rule instead of an Angular's built-in"
       matTooltipPosition="after"><mat-icon class="material-symbols-outlined" color="accent">info</mat-icon></button>
 
 

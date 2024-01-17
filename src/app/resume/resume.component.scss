@@ -7,8 +7,8 @@
 .container {
     max-width: 90%;
     margin: auto;
-    margin-top: 5rem; 
-    line-height: 1.15;   
+    margin-top: 5rem;
+    line-height: 1.15;
 }
 
 .header {
@@ -16,7 +16,25 @@
     font-weight: 700;
     letter-spacing: -0.5px;
     text-align: center;
+    margin-bottom: 4rem;
+}
+
+.subheader {
+    font-size: 2.8rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+}
+
+.list {
+    padding-left: 1.7rem;
+}
+
+.ex-item {
     margin-bottom: 3rem;
+}
+
+.item {
+    line-height: 1.6;
 }
 
 .title {
@@ -24,57 +42,55 @@
     font-weight: 700;
     letter-spacing: -0.5px;
     margin-bottom: 0.5rem;
-    margin-top: 4rem;
 }
 
 .prg {
-    line-height: 1.4;
+    line-height: 1.6;
     text-align: justify;
     text-indent: 4rem;
-    margin-bottom: 1rem;
 }
 
 .subtitle {
     font-weight: 700;
     letter-spacing: -0.5px;
     margin-bottom: 0.3rem;
-    margin-top: 3rem;
+    margin-top: 2rem;
     text-indent: 4rem;
 }
 
 .subtext {
-    font-size: 1.4rem;
     line-height: 1.6;
     text-align: justify;
     text-indent: 4rem;
+    letter-spacing: -0.5px;
 }
 
 .job {
     font-weight: 400;
 }
 
-.blue {
-    color: #3949AB;
+.divider {
+    margin-bottom: 2rem;
 }
 
-.red {
-    color: #D50000;
+.space {
+    margin-bottom: 8rem;
 }
 
 .social {
     display: flex;
     gap: 15px;
     align-items: flex-start;
-    justify-content: center;  
-    padding-bottom: 4rem;  
+    justify-content: center;
+    padding-bottom: 4rem;
 }
 
 .social-logo {
     width: 44.45px;
-    height: 37.8px;    
+    height: 37.8px;
 }
 
 .social-text {
     font-weight: 500;
-    font-size: 16px;   
+    font-size: 16px;
 }
