@@ -39,12 +39,11 @@
 }
 
 .sub {
-  line-height: 1.6;  
+  line-height: 1.6;
 }
 
-.blue {
+.strong {
   font-weight: 500;
-  color: #3949AB;
 }
 
 // ======= QUERIES ========
@@ -58,7 +57,7 @@
   }
 
   .intro {
-    gap: 1.2rem;    
+    gap: 1.2rem;
   }
 
   .intro-photo {
@@ -85,7 +84,7 @@
     margin: auto;
   }
 
-  
+
   .intro-text {
     flex: 0 1 auto;
     display: flex;
@@ -95,8 +94,8 @@
 
   .occupation {
     font-size: 3.3rem;
-    margin: auto;  
-    margin-bottom: -0.3rem; 
+    margin: auto;
+    margin-bottom: -0.3rem;
   }
 
   .sub {
